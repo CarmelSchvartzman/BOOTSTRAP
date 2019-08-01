@@ -3,9 +3,13 @@
         <div class='col-md-12' >
           <form class='' >
             <div class='form-group' >
-              <label for='txtID' class='col-md-2'>Id of user : </label>
-              <div class='col-md-10' >
-                <input id='txtID' name='txtID' class='form-control' [(ngModel)]='id'  />
+              <label for='txtID' class='col-md-2'>Id of user : </label><div class='col-md-3' >
+              <div class="input-group">
+                <span class="input-group-addon">
+                <span class="glyphicon glyphicon-envelope"></span>
+                </span>
+                  <input id='txtID' name='txtID' class='form-control' [(ngModel)]='id'  />
+                </div>
               </div>
             </div><br><br>
             <div class='form-group' >
@@ -18,9 +22,3 @@
         </div>
       </div>
     </div>
-    
-    
-    
-    
-    
-    
