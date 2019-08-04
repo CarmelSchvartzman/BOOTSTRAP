@@ -1,0 +1,37 @@
+//////  DROPDOWN :   " TXT | DROPDOWN  "
+
+<div class="input-group">
+    <input type="text" class="form-control"/>
+    <div class="input-group-btn">
+        <button type="button" data-toggle="dropdown"
+                class="btn btn-default dropdown-toggle">
+            Dropdown
+            <span class="caret"></span>              <<<<<<<<<<<<<<<<
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">Action 1</a></li>
+            <li><a href="#">Action 2</a></li>
+            <li><a href="#">Action 3</a></li>
+        </ul>
+    </div>
+</div>
+
+////////  SEGMENTED BUTTON : " TXT | ACTION | DROPDOWN_CARET  "
+
+<div class="input-group">
+    <input type="text" class="form-control"/>
+    <div class="input-group-btn">
+        <button type="button" class="btn btn-default">Action</button>  <<<<<<<<<<<<<<<<
+        <button type="button" data-toggle="dropdown"
+                class="btn btn-default dropdown-toggle">
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">Action 1</a></li>
+            <li><a href="#">Action 2</a></li>
+            <li><a href="#">Action 3</a></li>
+        </ul>
+    </div>
+</div>
+
+
