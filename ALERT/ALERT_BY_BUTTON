@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+
+<div class="container">
+  
+<button class='btn btn-info btn-sm'  data-target='#myalert' data-toggle='modal'>Alert</button>   <<<<<<<<<<<<<<<
+
+
+<div class='modal' id='myalert'>   <<<<<<<<<<<<<<<
+  <div class='modal-dialog'> 
+    <div class='alert alert-info alert-dismissible'  >   <<<<<<<<<<<<<<<
+      <strong>This is an alert opened by a button</strong>
+      <button class='close' data-dismiss='modal'><span class='glyphicon glyphicon-cloud'></span></button>
+  
+    </div>
+  </div>
+</div> 
+  
+  
+</body>
+</html>
