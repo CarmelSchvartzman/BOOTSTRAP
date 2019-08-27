@@ -18,7 +18,7 @@
 
 <div class='modal' id='myalert'>   <<<<<<<<<<<<<<<
   <div class='modal-dialog'> 
-    <div class='alert alert-info alert-dismissible'  >   <<<<<<<<<<<<<<<
+    <div class='alert alert-info alert-dismissible'  >   <<<<<<<<<<<<<<<   DO NOT STATE HERE "FADE" !
       <strong>This is an alert opened by a button</strong>
       <button class='close' data-dismiss='modal'><span class='glyphicon glyphicon-cloud'></span></button>
   
